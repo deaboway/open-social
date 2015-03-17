@@ -1,0 +1,404 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"username",
+				"username"
+			],
+			[
+				"in",
+				"input	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.txt",
+			"settings":
+			{
+				"buffer_size": 3475,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "open-social.php",
+			"settings":
+			{
+				"buffer_size": 68762,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gavin/open-social/images/login_button.png",
+		"/Applications/XAMPP/xamppfiles/htdocs/wsq/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/thk/Extend/Library/ORG/ThinkSDK/ThinkOauth.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/thk/Extend/Library/ORG/ThinkSDK/sdk/WechatSDK.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/THK/Extend/Driver/Session/SessionDb.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/THK/Extend/Library/ORG/Util/Image.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/THK/Common/common.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/App/Conf/Index/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Conf/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/App/Tpl/Index/Index_download.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/Public/Tpl/error.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/App/Lib/Action/Index/IndexAction.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Conf/Index/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/App/Tpl/Index/Index/download.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Lib/Action/IndexAction.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Css/app.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Tpl/Index/app.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Lib/Event/TypeEvent.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/install.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/readme.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/wx/Index/Conf/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Tpl/Index/new.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Css/new.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Tpl/Index/hongbao.html",
+		"/Users/gavin/Downloads/lc_wish.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Tpl/Index/test.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Js/wechat-cool.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Js/jweixin-1.0.0.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Images/btngz.png",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/App/Tpl/Index/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Css/PIE.htc",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/App/Lib/Action/IndexAction.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Common/common.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/lichun/Conf/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/App/Conf/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/ThinkPHP/Extend/Library/ORG/ThinkSDK/ThinkOauth.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/App/Lib/Event/TypeEvent.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/ThinkPHP/Extend/Library/ORG/ThinkSDK/sdk/WechatSDK.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/App/Common/common.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/App/Lib/Action/readme.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/ThinkPHP/Extend/Library/ORG/ThinkSDK/sdk/TencentSDK.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/oauth/ThinkPHP/Extend/Library/ORG/ThinkSDK/sdk/QqSDK.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Images/send.png",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/thk/Extend/Library/ORG/Crypt/Base64.class.php",
+		"/Users/gavin/Downloads/ThinkSDK/README.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/thk/Conf/debug.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/thk/Conf/convention.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Images/btnsend.png",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Css/index.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/thk/Lib/Core/Action.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Index/Tpl/Index/wish.html",
+		"/Users/gavin/Desktop/bg1.jpg",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Images/bg.jpg",
+		"/Users/gavin/Downloads/LetsRunSrc/LetsRun/project.properties",
+		"/Applications/XAMPP/xamppfiles/htdocs/lichun/Public/Images/bg_main.jpg",
+		"/Users/gavin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/gavin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/gavin/Desktop/test.php",
+		"/Users/gavin/Library/Application Support/Sublime Text 2/Packages/User/PHP.sublime-settings"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"wechat",
+			"weixin",
+			"WeiXin",
+			"share_weixin",
+			"wx61db2351aa1d7864",
+			"Authorize",
+			"GetRequestCodeURL",
+			"state",
+			"URL_CALLBACK",
+			"lifeTime",
+			"Ico",
+			"?>",
+			"!');\n",
+			"}",
+			"uioja",
+			"script",
+			"jweixin",
+			"wechat",
+			"offsetHeight",
+			"scroll",
+			"touchmove",
+			";}\n",
+			"backdrop",
+			"\">\n",
+			"backdrop",
+			"scroll",
+			"onscroll",
+			"touchmove",
+			"scroll",
+			"script",
+			"scroll",
+			"backdrop",
+			"touch",
+			"touchmove",
+			"touchmove scroll",
+			"Maleskine.initWeixin",
+			"share-help",
+			"div.share-help",
+			"touchmove",
+			"backdrop",
+			"help-modal",
+			"initWeixin",
+			"touchmove",
+			"share-help",
+			"Share",
+			"touchmove",
+			"touchmove scroll",
+			"touchmove",
+			"touchmove scroll",
+			"share-help",
+			"initWeixin",
+			"share-help",
+			"share-hel",
+			"share-help",
+			"getRequestCodeURL",
+			"getAccessToken",
+			"getRequestCodeURL",
+			"callback",
+			"callbac",
+			"call'ba'c'ke",
+			"call",
+			"getRequestCodeURL",
+			",){",
+			"parseToken",
+			"data",
+			"openid",
+			"type",
+			"parse_str",
+			"CALLBACK",
+			"redirect_uri",
+			"&",
+			"amp;",
+			"getRequestCodeURL",
+			"getAccessToken",
+			"GrantType",
+			"client_id",
+			"wx",
+			"w'x",
+			"Qq",
+			"THINK_SDK_QQ",
+			"QqSDK",
+			"Authorize",
+			"hide",
+			"wish",
+			"width",
+			"dispatchJump",
+			"3",
+			"display",
+			"')}\"",
+			"username",
+			"b'g",
+			"./"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"__PUBLIC__/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "readme.txt",
+					"settings":
+					{
+						"buffer_size": 3475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2613.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "open-social.php",
+					"settings":
+					{
+						"buffer_size": 68762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true
+}
