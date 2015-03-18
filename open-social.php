@@ -743,28 +743,34 @@ class GITHUB_CLASS {
 class WECHAT_CLASS {
 	function open_login() {
 		$params=array(
+			'appid'=>osop('WECHAT_AKEY'),
+			'redirect_uri'=>home_url('/').'?connect=wechat&action=callback',
+			//'redirect_uri'=>osop('WECHAT_BACK').'?connect=wechat&action=callback',
 			'response_type'=>'code',
 			'scope'=>'snsapi_login',
-			'state'=>md5(uniqid(rand(), true)),
-			'appid'=>osop('WECHAT_AKEY'),
-			'redirect_uri'=>home_url('/').'?connect=wechat&action=callback'
+			'state'=>md5(uniqid(rand(), true))
 		);
-		header('Location:https://open.weixin.qq.com/connect/qrconnect?'.http_build_query($params));
+		//header('Location:https://open.weixin.qq.com/connect/qrconnect?'.http_build_query($params));
+		header('Location:https://open.weixin.qq.com/connect/oauth2/authorize?'.http_build_query($params));
 		exit();
 	} 
 	function open_callback($code) {
 		$params=array(
+			'appid'=>osop('WECHAT_AKEY'),
+			'secret'=>osop('WECHAT_SKEY'),
 			'grant_type'=>'authorization_code',
 			'code'=>$code,
-			'appid'=>osop('WECHAT_AKEY'),
-			'secret'=>osop('WECHAT_SKEY')
-			//'redirect_uri'=>home_url('/').'?connect=wechat&action=callback'
+			'redirect_uri'=>home_url('/').'?connect=wechat&action=callback'
+			//'redirect_uri'=>osop('WECHAT_BACK').'&connect=wechat&action=callback'
 		);
+
+		//echo http_build_query($params);
 		$str = open_connect_http('https://api.weixin.qq.com/sns/oauth2/access_token', http_build_query($params), 'POST');
-		echo http_build_query($str);
-		exit();
+		//echo http_build_query($str);
+		//exit();
 		$_SESSION["access_token"] = $str["access_token"];
 		$_SESSION['open_id'] = $str["openid"];
+		//header('Location:'.osop('WECHAT_BACK'));
 	}
 	function open_new_user(){
 		$user = open_connect_http("https://api.weixin.qq.com/sns/userinfo?access_token=".$_SESSION["access_token"]."&openid=".$_SESSION['open_id']);
@@ -779,7 +785,10 @@ class WECHAT_CLASS {
 } 
 
 function open_close($open_info){
-	wp_die($open_info);
+	//temp solution
+	$back = isset($_SESSION['back']) ? $_SESSION['back'] : osop('WECHAT_BACK');
+	header('Location:'.$back);
+	//wp_die($open_info);
 	exit();
 }
 
@@ -845,7 +854,8 @@ function open_action($os){
 	unset($_SESSION['open_id']);
 	unset($_SESSION["access_token"]);
 	if(isset($_SESSION['open_img'])) unset($_SESSION['open_img']); 
-	$back = isset($_SESSION['back']) ? $_SESSION['back'] : home_url();
+	//$back = isset($_SESSION['back']) ? $_SESSION['back'] : home_url();
+	$back = isset($_SESSION['back']) ? $_SESSION['back'] : osop('WECHAT_BACK');
 	if(isset($_SESSION['back'])) unset($_SESSION['back']); 
 	header('Location:'.$back);
 	exit;
@@ -1056,7 +1066,8 @@ function open_options_page() {
                 <td><label for="osop['.$V.']">
                     <input name="osop['.$V.']" id="osop['.$V.']" type="checkbox" value="1" '.checked(osop($V),1,false).' />'.__('Enabled').'</label><br />
                     <input name="osop['.$V.'_AKEY]" value="'.osop($V.'_AKEY').'" class="regular-text" /> App ID <br/>
-                    <input name="osop['.$V.'_SKEY]" value="'.osop($V.'_SKEY').'" class="regular-text" /> Secret KEY</td>
+                    <input name="osop['.$V.'_SKEY]" value="'.osop($V.'_SKEY').'" class="regular-text" /> Secret KEY<br/>
+                    <input name="osop['.$V.'_BACK]" value="'.osop($V.'_BACK').'" class="regular-text code" placeholder="'.home_url('/').'" /> CALLBACK</td>
                 </tr>';
 			}
 		?>
@@ -1161,6 +1172,8 @@ function open_social_share_form($content) {
 }
 
 function open_social_login_html($atts=array()) {
+	// 如果已经登录，则不显示登录图标
+	if(is_user_logged_in()) return;
 	$html = '<div class="open_social_box login_box">';
 	$show = (isset($atts) && !empty($atts) && isset($atts['show'])) ? $atts['show'] : '';
 	foreach ($GLOBALS['open_arr'] as $v){

@@ -27,7 +27,7 @@
 			"file": "readme.txt",
 			"settings":
 			{
-				"buffer_size": 3475,
+				"buffer_size": 4202,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "open-social.php",
 			"settings":
 			{
-				"buffer_size": 68762,
+				"buffer_size": 68905,
 				"line_ending": "Windows"
 			}
 		}
@@ -134,7 +134,7 @@
 	],
 	"find":
 	{
-		"height": 44.0
+		"height": 45.0
 	},
 	"find_in_files":
 	{
@@ -148,6 +148,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"curl_init",
+			"open_connect_http",
+			"header",
+			"open_connect_http",
+			"wechat",
+			"callback",
+			"connect_redirect",
 			"wechat",
 			"weixin",
 			"WeiXin",
@@ -292,7 +299,7 @@
 					"file": "readme.txt",
 					"settings":
 					{
-						"buffer_size": 3475,
+						"buffer_size": 4202,
 						"regions":
 						{
 						},
@@ -308,7 +315,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2613.0,
+						"translation.y": 1837.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -318,15 +325,15 @@
 					"file": "open-social.php",
 					"settings":
 					{
-						"buffer_size": 68762,
+						"buffer_size": 68905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								100
+								36369,
+								36369
 							]
 						],
 						"settings":
@@ -335,7 +342,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 15445.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -399,6 +406,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 236.0,
+	"side_bar_width": 180.0,
 	"status_bar_visible": true
 }
